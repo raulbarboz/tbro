@@ -3,7 +3,15 @@
     margin:0 auto;
 }
 
+.mt-30{
+    margin-top:30px;
+}
+
 .Home{
     height:100vh;
     width: 100vw;
+}
+
+.Section-Carousel{
+    background:#4c3736;
 }

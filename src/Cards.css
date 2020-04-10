@@ -1,0 +1,31 @@
+.Cards{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Cards div{
+    display:flex;
+    align-items: flex-end;
+    padding:10px;
+    width:320px;
+    height: 300px;
+    border:1px solid #f7f7f7;
+    border-radius: 0 0 8px 8px;
+    font-family: 'Abel', sans-serif;
+    color:#757575;
+    text-align: justify;
+    letter-spacing: 1.5px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.Cards div:hover{
+    color:white;
+    background:#ddbf9b;
+}
+
+.Cards div section h2{
+    text-align: center;
+    margin-bottom:10px;
+}

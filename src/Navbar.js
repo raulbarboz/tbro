@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from './card-brown-dark.jpg';
+import Logo from './images/logo.jpg';
 import './Navbar.css';
 
 function Navbar() {
