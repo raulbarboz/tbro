@@ -1,23 +1,29 @@
 .Cards{
     display:flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
 }
 
 .Cards div{
     display:flex;
     align-items: flex-end;
-    padding:10px;
-    width:320px;
-    height: 300px;
-    border:1px solid #f7f7f7;
-    border-radius: 0 0 8px 8px;
+    flex-shrink: 0;
+    width:400px;
+    padding:52px;
+    height: 400px;
     font-family: 'Abel', sans-serif;
     color:#757575;
     text-align: justify;
     letter-spacing: 1.5px;
     font-weight: lighter;
     cursor: pointer;
+    box-sizing: border-box;
+}
+
+.Cards div:nth-child(1),
+.Cards div:nth-child(2){
+    border-right:1px solid #eaeaea;
 }
 
 .Cards div:hover{
@@ -28,4 +34,11 @@
 .Cards div section h2{
     text-align: center;
     margin-bottom:10px;
+    color: black;
+}
+
+@media(max-width:1199px){
+    .Cards div{
+        width:50%;
+    }
 }
