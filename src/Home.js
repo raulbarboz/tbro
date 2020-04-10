@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import Carousel from './Carousel';
+import CarouselComponent from './CarouselComponent';
 import './Home.css';
 
 function Home() {
@@ -10,7 +10,7 @@ function Home() {
           <Navbar />
         </header>
         <section>
-          <Carousel />
+          <CarouselComponent />
         </section>
     </div>
   );
