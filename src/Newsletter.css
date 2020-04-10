@@ -1,0 +1,14 @@
+.Newsletter{
+    background:#4c3736;
+    height: 90px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:50px;
+    cursor: pointer;
+}
+
+.Newsletter:hover{
+    background:#ddbe9a;
+}

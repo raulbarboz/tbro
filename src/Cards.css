@@ -31,6 +31,10 @@
     background:#ddbf9b;
 }
 
+.Cards div:hover h2{
+    color:white;
+}
+
 .Cards div section h2{
     text-align: center;
     margin-bottom:10px;

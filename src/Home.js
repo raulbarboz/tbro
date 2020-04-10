@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import CarouselComponent from './CarouselComponent';
 import Cards from './Cards';
+import Newsletter from './Newsletter';
 import './Home.css';
 
 function Home() {
@@ -15,6 +16,9 @@ function Home() {
         </section>
         <section className="Section-Cards">
           <Cards />
+        </section>
+        <section className="Section-Newsletter">
+          <Newsletter />
         </section>
     </div>
   );
