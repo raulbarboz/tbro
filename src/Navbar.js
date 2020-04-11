@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from './images/logo.jpg';
+import UlMenu from './UlMenu';
 import './Navbar.css';
 
 function Navbar() {
@@ -9,10 +10,7 @@ function Navbar() {
         <div className="Navbar-Brand">
             <img className="Brand-Image" src={Logo} alt="logo"/>
         </div>
-        <ul className="Navbar-Menu">
-            <li>Portifólio</li>
-            <li>Contato</li>
-        </ul>
+        <UlMenu />
       </div>
     </div>
   );

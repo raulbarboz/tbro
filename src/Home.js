@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import CarouselComponent from './CarouselComponent';
 import Cards from './Cards';
 import Newsletter from './Newsletter';
+import Footer from './Footer';
 import './Home.css';
 
 function Home() {
@@ -20,6 +21,9 @@ function Home() {
         <section className="Section-Newsletter">
           <Newsletter />
         </section>
+        <footer>
+          <Footer />
+        </footer>
     </div>
   );
 }
