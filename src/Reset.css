@@ -6,6 +6,7 @@
 ul,
 li,
 a{
+    color:inherit;
     list-style: none;
     text-decoration: none;
 }

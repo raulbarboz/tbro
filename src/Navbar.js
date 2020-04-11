@@ -10,7 +10,7 @@ function Navbar() {
         <div className="Navbar-Brand">
             <img className="Brand-Image" src={Logo} alt="logo"/>
         </div>
-        <UlMenu />
+        <UlMenu ulClass={'Navbar-Menu'}/>
       </div>
     </div>
   );

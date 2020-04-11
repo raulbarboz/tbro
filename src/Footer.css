@@ -4,3 +4,27 @@ footer{
     color:white;
     font-family: 'Abel', sans-serif;
 }
+
+.Footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+.Footer div{
+    width:400px;
+    height:120px;
+    box-sizing: border-box;
+    padding-right:52px;
+    padding-left:52px;
+}
+
+.Navbar-Footer{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.Navbar-Footer li {
+    margin-right:10px;
+}

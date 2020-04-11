@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Navbar() {
+function Navbar(props) {
     return (
-        <ul className="Navbar-Menu">
-            <li>Portifólio</li>
-            <li>Contato</li>
+        <ul className={props.ulClass}>
+            <li><a href="/">Portifólio</a></li>
+            <li><a href="/">Contato</a></li>
         </ul>
         );
     }
